@@ -6,7 +6,7 @@
     <title>Histórevo</title>
     <!-- Bootstrap CSS -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="icon" type="image/png" href="historevo/historevo.ico" sizes="16x16">
     <link rel="icon" type="image/png" href="historevo/historevo.ico" sizes="32x32">
     <link rel="icon" type="image/png" href="historevo/historevo.ico" sizes="48x48">
@@ -15,6 +15,12 @@
         /* Estilos adicionales personalizados */
         body {
             padding-top: 4.5rem; /* Para compensar el tamaño de la barra de navegación fija */
+        }
+        .card-img-top-small {
+            width: 100%;
+            height: auto;
+            max-height: 200px; /* Ajusta este valor según el tamaño deseado */
+            object-fit: cover; /* Mantiene la proporción de la imagen */
         }
     </style>
 </head>
@@ -51,21 +57,21 @@
             <div class="col-md-8">
                 <!-- Artículo 1 -->
                 <div class="card mb-4">
-                    <img src="imagen1.jpg" class="card-img-top" alt="Imagen del artículo 1">
+                    <img src="historevo/JJOO.jpeg" class="card-img-top card-img-top-small" alt="JJOO">
                     <div class="card-body">
-                        <h5 class="card-title">Título del artículo 1</h5>
-                        <p class="card-text">Texto del artículo. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <h5 class="card-title">Origen y Evolución de los Juegos Olímpicos</h5>
+                        <p class="card-text text-justify">Los Juegos Olímpicos nacieron en la antigua Grecia, en la ciudad de Olimpia, hace más de dos mil años.</p>
                         <a href="#" class="btn btn-primary">Leer más</a>
                     </div>
                 </div>
 
                 <!-- Artículo 2 -->
                 <div class="card mb-4">
-                    <img src="imagen2.jpg" class="card-img-top" alt="Imagen del artículo 2">
+                    <img src="imagen2.jpg" class="card-img-top card-img-top-small" alt="Imagen del artículo 2">
                     <div class="card-body">
                         <h5 class="card-title">Título del artículo 2</h5>
                         <p class="card-text">Texto del artículo. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        <a href="#" class="btn btn-primary">Leer más</a>
+                        <a href="jjoo.html" class="btn btn-primary">Leer más</a>
                     </div>
                 </div>
             </div>
@@ -74,7 +80,7 @@
             <div class="col-md-4">
                 <!-- Noticia destacada -->
                 <div class="card mb-4">
-                    <img src="noticia1.jpg" class="card-img-top" alt="Imagen de la noticia destacada">
+                    <img src="noticia1.jpg" class="card-img-top card-img-top-small" alt="Imagen de la noticia destacada">
                     <div class="card-body">
                         <h5 class="card-title">Noticia destacada</h5>
                         <p class="card-text">Breve descripción de la noticia.</p>
